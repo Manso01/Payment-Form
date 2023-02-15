@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/af0dcaba5d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="paymentform">
+        <div class="pf-header">
+            <p>Payment From Example</p>
+        </div>
+        <div class="showerror">
+            <p>Some field are missing</p>
+        </div>
+        <div class="nameinput">
+            <div class="card">
+                <p>Card Number</p>
+            </div>
+            <div class="cvc">
+                <p>CVC Number</p>
+            </div>
+            <div class="amount">
+                <p>Amount</p>
+            </div>
+        </div>
+        <div class="inputall">
+            <div class="inputcard">
+                <input class="cardinput" placeholder="XXXX-XXXX-XXXX-XXX" type="text" size="38">
+            </div>
+            <div class="inputcvc">
+                <input class="cvcinput" placeholder="123">
+            </div>
+            <div class="inputamount">
+                <p>$</p>
+                <input class="amountinput" placeholder="00000000.00" type="text" size="29">
+            </div>
+        </div>
+        <div class="names">
+            <div class="firstname">
+                <p>First Name</p>
+            </div>
+            <div class="lastname">
+                <p>Last Name</p>
+            </div>
+        </div>
+        <div class="namesinput">
+            <input class="firstnameinput" type="text" size="46">
+            <input class="lastnameinput" type="text" size="46">
+        </div>
+        <div class="info">
+            <div class="city">
+                <p>City</p>
+            </div>
+            <div class="state">
+                <p>State</p>
+            </div>
+            <div class="postalcode">
+                <p>Postal Code</p>
+            </div>
+        </div>
+        <div class="infoinput">
+            <input class="cityinput" type="text" size="46">
+            <select id="statelist">
+                <option value="pick">Pick a state</option>
+                <option value="Fl">Florida</option>
+                <option value="Alab">Alabama</option>
+                <option value="Az">Arizona</option>
+                <option value="Alka">Alaska</option>
+                <option value="Ark">Arkansas</option>
+            </select>
+            <input class="postalcodeinput" type="text" size="21">
+        </div>
+        <div class="weaccept-header">
+            <p class="textweaccept">We accept:</p>
+            <p class="message">Message</p>
+        </div>
+        <div class="group">
+            <div class="weaccept">
+                <div class="cardstypes">
+                    <input type="checkbox">
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <input type="checkbox">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <input type="checkbox">
+                    <i class="fa-brands fa-cc-discover"></i>
+                    <input type="checkbox">
+                    <i class="fa-brands fa-cc-amex"></i>
+                </div>
+            </div>
+            <div class="message1">
+                <input class="message1-1" size="45">
+                <p>Any other notes here</p>
+            </div>
+        </div>
+        <div class="pf-footer">
+            <button class="cancel">Cancel</button>
+            <button class="send">Send</button>
+        </div>
+    </div>
+</body>
+
+</html>

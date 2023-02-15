@@ -1,0 +1,217 @@
+body {
+    background: white;
+    font-family: 'roboto';
+}
+
+.paymentform {
+    border: solid rgb(193, 193, 193);
+    border-width: 2px;
+    width: 800px;
+    height: 526px;
+    margin: auto;
+}
+
+.pf-header {
+    background: whitesmoke;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px;
+    height: auto;
+    width: auto;
+    border-bottom: solid rgb(193, 193, 193);
+    border-width: 2px;
+}
+
+.pf-header p {
+    padding: 1px;
+    font-size: 15px;
+    margin-left: 15px;
+    border-left: 15px;
+}
+
+.showerror p {
+    background: rgb(254, 212, 212);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid rgb(255, 202, 202);
+    border-width: 2px;
+    color: rgb(124, 0, 0);
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.nameinput {
+    display: flex;
+}
+
+.card {
+    margin-left: 2%;
+}
+
+.cvc {
+    margin-left: 31%;
+}
+
+.amount {
+    margin-left: 16%;
+}
+
+.nameinput p {
+    font-size: 80%;
+}
+
+.cardinput {
+    margin-left: 15px;
+}
+
+.inputall {
+    display: flex;
+}
+
+.inputcvc {
+    margin-left: 1%;
+}
+
+.inputamount {
+    margin-left: 2%;
+    display: flex;
+}
+
+.inputamount p {
+    margin: 0%;
+    padding: 0%;
+    border: 0ch;
+    margin-right: 5px;
+}
+
+.names {
+    display: flex;
+}
+
+.names p {
+    font-size: 80%;
+}
+
+.firstname {
+    margin-left: 2%;
+}
+
+.lastname {
+    margin-left: 41.5%;
+}
+
+.firstnameinput {
+    margin-left: 2%;
+}
+
+.lastnameinput {
+    margin-left: 2%;
+}
+
+.info {
+    display: flex;
+}
+
+.info p {
+    font-size: 80%;
+}
+
+.infoinput {
+    display: flex;
+}
+
+.cityinput {
+    margin-left: 2%;
+}
+
+#statelist {
+    margin-left: 2.5%;
+    width: 183px;
+    background: white;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(194, 194, 194);
+}
+
+.postalcodeinput {
+    margin-left: 1%;
+}
+
+.city {
+    margin-left: 2%;
+}
+
+.state {
+    margin-left: 46.5%;
+}
+
+.postalcode {
+    margin-left: 20%;
+}
+
+.weaccept-header {
+    display: flex;
+}
+
+.weaccept-header p {
+    font-size: 80%;
+}
+
+.textweaccept {
+    margin-left: 2%;
+}
+
+.message {
+    margin-left: 41.5%;
+}
+
+.group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.weaccept {
+    margin-left: 2%;
+}
+
+.cardstypes {
+    background: grey;
+    padding: 5px;
+}
+
+.message1-1 {
+    margin-left: 55%;
+    height: 90px;
+}
+
+.message1 p {
+    font-size: 80%;
+    margin: 0%;
+    margin-left: 55%;
+    margin-top: 2%;
+}
+
+.pf-footer {
+    background: whitesmoke;
+    padding: 10px;
+    border-top: solid rgb(193, 193, 193);
+    border-width: 2px;
+}
+
+.cancel {
+    margin-left: 86%;
+    color: white;
+    background: grey;
+    padding: 5px;
+    border: none;
+    border-radius: 5%;
+}
+
+.send {
+    background: rgb(34, 134, 255);
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
